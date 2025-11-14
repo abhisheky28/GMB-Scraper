@@ -1,0 +1,61 @@
+2025-11-10 15:19:40,907 - INFO - --- Starting GMB Scraper Script for worksheet 'GMB lists' ---
+2025-11-10 15:19:40,909 - INFO - Loaded 0 completed keywords from progress file.
+2025-11-10 15:19:40,909 - INFO - Connecting to Google Sheets API...
+2025-11-10 15:19:40,981 - INFO - Successfully connected to Google Sheets API.
+2025-11-10 15:19:44,464 - INFO - Fetching keywords from worksheet: 'GMB lists'
+2025-11-10 15:19:44,860 - INFO - Successfully fetched 1 keywords.
+2025-11-10 15:19:44,861 - INFO - Initializing human-like Chrome WebDriver...
+2025-11-10 15:19:44,862 - INFO - ====== WebDriver manager ======
+2025-11-10 15:19:46,658 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-10 15:19:47,182 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-10 15:19:47,720 - INFO - Driver [C:\Users\Abhishek Yadav\.wdm\drivers\chromedriver\win64\142.0.7444.61\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-10 15:19:49,603 - INFO - 
+--- Processing keyword 1/1: 'Gym near me' ---
+2025-11-10 15:19:57,405 - INFO - Looking for 'More businesses' button...
+2025-11-10 15:20:12,369 - INFO - Clicked 'More businesses'.
+2025-11-10 15:20:12,369 - INFO - --- Scraping GMB Page 1 for 'Gym near me' ---
+2025-11-10 15:20:16,437 - INFO - Scrolling page to load all results...
+2025-11-10 15:20:17,959 - INFO - Finished scrolling.
+2025-11-10 15:20:17,974 - INFO - Found 21 listings on this page.
+2025-11-10 15:20:25,752 - INFO - --- Scraping GMB Page 2 for 'Gym near me' ---
+2025-11-10 15:20:29,364 - INFO - Scrolling page to load all results...
+2025-11-10 15:20:30,700 - INFO - Finished scrolling.
+2025-11-10 15:20:30,709 - INFO - Found 21 listings on this page.
+2025-11-10 15:20:36,739 - INFO - --- Scraping GMB Page 3 for 'Gym near me' ---
+2025-11-10 15:20:41,269 - INFO - Scrolling page to load all results...
+2025-11-10 15:20:42,212 - INFO - Finished scrolling.
+2025-11-10 15:20:42,222 - INFO - Found 20 listings on this page.
+2025-11-10 15:20:49,128 - INFO - --- Scraping GMB Page 4 for 'Gym near me' ---
+2025-11-10 15:20:52,877 - INFO - Scrolling page to load all results...
+2025-11-10 15:20:54,049 - INFO - Finished scrolling.
+2025-11-10 15:20:54,149 - INFO - Found 21 listings on this page.
+2025-11-10 15:21:00,653 - INFO - --- Scraping GMB Page 5 for 'Gym near me' ---
+2025-11-10 15:21:03,675 - INFO - Scrolling page to load all results...
+2025-11-10 15:21:04,667 - INFO - Finished scrolling.
+2025-11-10 15:21:04,681 - INFO - Found 21 listings on this page.
+2025-11-10 15:21:11,941 - INFO - --- Scraping GMB Page 6 for 'Gym near me' ---
+2025-11-10 15:21:16,455 - INFO - Scrolling page to load all results...
+2025-11-10 15:21:17,663 - INFO - Finished scrolling.
+2025-11-10 15:21:17,674 - INFO - Found 20 listings on this page.
+2025-11-10 15:21:24,304 - INFO - --- Scraping GMB Page 7 for 'Gym near me' ---
+2025-11-10 15:21:29,207 - INFO - Scrolling page to load all results...
+2025-11-10 15:21:30,508 - INFO - Finished scrolling.
+2025-11-10 15:21:30,521 - INFO - Found 21 listings on this page.
+2025-11-10 15:21:38,029 - INFO - --- Scraping GMB Page 8 for 'Gym near me' ---
+2025-11-10 15:21:42,983 - INFO - Scrolling page to load all results...
+2025-11-10 15:21:44,141 - INFO - Finished scrolling.
+2025-11-10 15:21:44,147 - INFO - Found 21 listings on this page.
+2025-11-10 15:21:50,870 - INFO - --- Scraping GMB Page 9 for 'Gym near me' ---
+2025-11-10 15:21:53,903 - INFO - Scrolling page to load all results...
+2025-11-10 15:21:55,240 - INFO - Finished scrolling.
+2025-11-10 15:21:55,257 - INFO - Found 21 listings on this page.
+2025-11-10 15:22:02,314 - INFO - --- Scraping GMB Page 10 for 'Gym near me' ---
+2025-11-10 15:22:06,874 - INFO - Scrolling page to load all results...
+2025-11-10 15:22:08,346 - INFO - Finished scrolling.
+2025-11-10 15:22:08,358 - INFO - Found 21 listings on this page.
+2025-11-10 15:22:15,263 - INFO - Saved 'Gym near me' to progress file.
+2025-11-10 15:22:15,263 - INFO - Finished scraping for 'Gym near me'. Taking a break...
+2025-11-10 15:22:28,114 - INFO - Scraping complete. Saving 208 listings to C:\Users\Abhishek Yadav\Documents\GMB Scraper\GMB_Scraped_Data.xlsx...
+2025-11-10 15:22:29,040 - INFO - Successfully saved data to Excel.
+2025-11-10 15:22:29,040 - INFO - Closing WebDriver.
+2025-11-10 15:22:31,594 - INFO - --- GMB Scraper Script Finished ---
